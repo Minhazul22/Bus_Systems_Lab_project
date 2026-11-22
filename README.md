@@ -33,21 +33,15 @@ and sensor selection.
 -   USB serial communication
 
 ## System architecture & workflow
-``` text
-MB1360 ──> Arduino A0 ──┐
-                       ├─> Arduino Nano ──USB Serial──> Python
-Sharp ───> Arduino A1 ──┘
-```
 
-![Distance sensor system architecture and workflow](images/Distance Sensor System Workflow.png)
+The diagram below shows the sensor connections, Arduino acquisition path
+and Python-based logging and analysis workflow.
+
+![Distance sensor system architecture and workflow](images/Distance%20Sensor%20System%20Workflow.png)
 
 *Both sensors share the Arduino Nano's 5 V supply and ground. The Nano
 reads the MB1360 on A0 and the Sharp sensor on A1, then streams the
 10-bit ADC readings to Python over USB serial at 115200 baud.*
-
-
-Both sensors shared the Arduino's 5 V supply and ground. The Arduino
-sent ADC readings to the PC at 115200 baud.
 
 ## What was implemented
 
