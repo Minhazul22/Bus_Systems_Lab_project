@@ -39,7 +39,7 @@ MB1360 ──> Arduino A0 ──┐
 Sharp ───> Arduino A1 ──┘
 ```
 
-![Distance sensor system architecture and workflow](images/system-architecture.png)
+![Distance sensor system architecture and workflow](images/Distance Sensor System Workflow.png)
 
 *Both sensors share the Arduino Nano's 5 V supply and ground. The Nano
 reads the MB1360 on A0 and the Sharp sensor on A1, then streams the
