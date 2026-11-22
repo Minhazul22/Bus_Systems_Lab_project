@@ -13,7 +13,7 @@ comparing two distance sensors:
 Minhazul Islam · **Date:** November 2026
 
 ## Project overview
-
+![Distance sensor project overview](images/A)
 Both sensors were tested over a target-distance range of 20--80 cm.
 Their analog outputs were measured with a multimeter and oscilloscope,
 then acquired using an Arduino Nano. Python was used to log and analyze
